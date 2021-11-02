@@ -1,0 +1,2 @@
+# CoordAttention_YOLOX_Pytorch
+CoordAttention_YOLOX(基于CoordAttention坐标注意力机制的改进版YOLOX目标检测平台）
