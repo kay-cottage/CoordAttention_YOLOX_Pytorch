@@ -4,7 +4,7 @@
 *注意：禁止用于商业用途，欢迎个人学习交流！*
 
 
-## 描述(Description）
+## 描述 (Description)
 
 CoordAttention_YOLOX by Pytorch(基于 2021年CVPR CoordAttention坐标注意力机制的改进版YOLOX目标检测平台）
 
