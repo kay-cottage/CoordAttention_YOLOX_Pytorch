@@ -39,7 +39,18 @@ CoordAttention_YOLOX by Pytorch(基于 2021年CVPR CoordAttention坐标注意力
 
 
 
-#### 2. 更多信息：
+## 一些补充（ps）
+
+1. YOLOX 应用在医学领域的血细胞形态学检测中似乎效果也挺好，这里先上个检测的效果图，以后有机会再更新更多例如皮肤癌检测等相关模型
+
+![Imgur](https://mmbiz.qpic.cn/mmbiz_png/QsUWqPChJWaE8j9S6lyjYd87V3BdPROIDgFYjDt09eD7x56KKbcozMOWZVN7A6Aib0lW4ytzf6ztEhgXzba9icNw/0?wx_fmt=png)
+
+
+
+
+
+
+## 更多信息：
 
 欢迎关注我的bilibili主页：https://space.bilibili.com/362186371
 
