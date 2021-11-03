@@ -15,9 +15,7 @@ CoordAttention_YOLOX by Pytorch(基于 2021年CVPR CoordAttention坐标注意力
 ## Paper
 
 * CoordAttention(CVPR 2021)
-
-
-![CoordAttention](https://arxiv.org/abs/2103.02907)
+* ![CoordAttention](https://arxiv.org/abs/2103.02907)
 
 
 
