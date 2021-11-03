@@ -8,7 +8,7 @@
 
 CoordAttention_YOLOX by Pytorch(基于 2021年CVPR CoordAttention坐标注意力机制的改进版YOLOX目标检测平台）
 
-后续可能还有：更换backbone主干特征提取网络，添加注意力机制Attention_YOLOX等方案
+后续可能还会更新：更换backbone主干特征提取网络、添加注意力模块、Attention_YOLOX实际部署等方案
 
 
 
@@ -45,6 +45,6 @@ CoordAttention_YOLOX by Pytorch(基于 2021年CVPR CoordAttention坐标注意力
 
 更多信息，相关视频会在那里更新
 
-最后，该项目为个人想法的简单实现，以后想到再更！
+最后，该项目为个人想法的简单实现，敬请期待，以后想到再更！
 
 不喜勿喷，谢谢哈
