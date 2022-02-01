@@ -7,7 +7,7 @@ import time
 import cv2
 import numpy as np
 from PIL import Image
-
+import grabscreen
 from yolo import YOLO
 
 if __name__ == "__main__":
@@ -106,6 +106,29 @@ if __name__ == "__main__":
         img = Image.open('img/street.jpg')
         tact_time = yolo.get_FPS(img, test_interval)
         print(str(tact_time) + ' seconds, ' + str(1/tact_time) + 'FPS, @batch_size 1')
+        
+        
+    
+    elif mode == "screen":
+        while(True):
+            frame = grabscreen.grab_screen()
+            frame = cv2.cvtColor(frame,cv2.COLOR_BGR2RGB)
+            # resize画面大小（加速检测）
+            frame = cv2.resize(frame,(416,277))
+            # 转变成Image
+            frame = Image.fromarray(np.uint8(frame))
+            # 进行检测
+            frame = np.array(yolo.detect_image(frame))
+            # RGBtoBGR满足opencv显示格式
+            frame = cv2.cvtColor(frame,cv2.COLOR_RGB2BGR)
+            cv2.imshow('window1',frame)
+
+            if cv2.waitKey(5) & 0xFF == ord('q'):
+                break
+        cv2.waitKey()# 视频结束后，按任意键退出
+        cv2.destroyAllWindows()
+
+
 
     elif mode == "dir_predict":
         import os
