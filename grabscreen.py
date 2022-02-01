@@ -1,3 +1,4 @@
+'''
 import win32gui
 import win32ui
 import win32con
@@ -27,6 +28,8 @@ screenshot.SaveBitmapFile(mem_dc, 'screenshot.jpg')
 # 内存释放
 mem_dc.DeleteDC()
 win32gui.DeleteObject(screenshot.GetHandle())
+'''
+
 
 #######################################################################
 
