@@ -46,6 +46,9 @@ CoordAttention_YOLOX by Pytorch(基于 2021年CVPR CoordAttention坐标注意力
 ![Imgur](https://mmbiz.qpic.cn/mmbiz_png/QsUWqPChJWaE8j9S6lyjYd87V3BdPROIDgFYjDt09eD7x56KKbcozMOWZVN7A6Aib0lW4ytzf6ztEhgXzba9icNw/0?wx_fmt=png)
 
 
+2.好久没更了，看到最近有小伙伴让分享下Coodinate Attention YOLOX的预训练权重；由于年代久远只找到这个了，大家可以试一下哈
+
+链接：https://pan.baidu.com/s/1ot5oylilXvLNZnAnQreDPg  提取码：zXip 
 
 
 
