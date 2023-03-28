@@ -37,6 +37,11 @@ CoordAttention_YOLOX by Pytorch(基于 2021年CVPR CoordAttention坐标注意力
 3. 小编小小测试，注意力机制放在网络后面的地方似乎更有效（也符合常理），好像也有相关研究支持，当然没有深入研究过
 
 
+## 预训练权重（Pretrained model）
+
+2.好久没更了，看到最近有小伙伴让分享下Coodinate Attention YOLOX的预训练权重；由于年代久远只找到这个了，大家可以试一下哈
+
+链接：https://pan.baidu.com/s/1ot5oylilXvLNZnAnQreDPg  提取码：zXip 
 
 
 ## 一些补充（ps）
@@ -45,10 +50,6 @@ CoordAttention_YOLOX by Pytorch(基于 2021年CVPR CoordAttention坐标注意力
 
 ![Imgur](https://mmbiz.qpic.cn/mmbiz_png/QsUWqPChJWaE8j9S6lyjYd87V3BdPROIDgFYjDt09eD7x56KKbcozMOWZVN7A6Aib0lW4ytzf6ztEhgXzba9icNw/0?wx_fmt=png)
 
-
-2.好久没更了，看到最近有小伙伴让分享下Coodinate Attention YOLOX的预训练权重；由于年代久远只找到这个了，大家可以试一下哈
-
-链接：https://pan.baidu.com/s/1ot5oylilXvLNZnAnQreDPg  提取码：zXip 
 
 
 
